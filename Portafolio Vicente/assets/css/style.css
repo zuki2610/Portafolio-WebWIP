@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header {
+    padding: 50px;
+    background-color: black;
+    color: lightgray;
+}
+
+footer {
+    bottom: 0;
+    background-color: black;
+    color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.rightborder {
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: lightcoral;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(249, 93, 93);
+    text-decoration: underline;
+}
+
+.allsection {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 95%;
+    margin-left: 35px;
+}
+
+.sobre-mi{
+    margin: 20px;
+
+}
+
+.sobrecontent {
+    margin-top: 30px;
+}
+
+.mifoto {
+    margin-left: 200px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    box-shadow: -2px 5px 5px black;
+}
+
+ul {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.habilidades {
+    margin: 20px;
+}
+
+.habcontent {
+    margin-top: 30px;
+}
+
+.desafiofoto {
+    width: 250px;
+    margin-left: 200px;
+}
+
+.contacto {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.contactocontent table tr td img {
+    width: 50px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
